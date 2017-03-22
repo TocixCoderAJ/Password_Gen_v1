@@ -7,7 +7,7 @@ __Copyright__ = "Copyright (C) 2017 Andrew Lee Johnson "
 __About__ = "New Password Generater that save it to a text file"
 __Notes__ = "Make it be able to encrypt or decrypt a file if he or she wants"
 password = "QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm!@#$%^&*()_+[]\;',./?><1234567890"
-f = open('output.txt', 'w', encoding="UTF-8")
+f = open('output.txt', 'w')
 number = 10
 random_value = random.sample(password, number)
 random_value = random.sample(random_value, number)
